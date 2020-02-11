@@ -8,8 +8,9 @@ main {
     float: left;
     color: black;
     text-align: center;
-    padding: 30px 4.2%;
+    padding: 20px 0;
     text-decoration: none;
+    width: 133px;
     font-size: 20px;
  }
 
@@ -26,12 +27,53 @@ main {
  .block {
     display: inline-block;
     margin: 10px;
-    width: 45%;
-    height: max-content;
+    width: 45%;    
+    padding: 10px 0 10px;
  }
 
- .h1-line {
-    background: #D9FFAD; /* Цвет фона под заголовком */
-    color: green; /* Цвет текста */
-    padding: 2px; /* Поля вокруг текста */
+ .block-bottom {
+   display: inline-table;
+   margin: 10px;
+   width: 30%;
  }
+
+ .line {
+    background-color: purple;
+    color: black; 
+    padding: 0;
+    margin: 0;
+    
+    
+ }
+
+ .line span {
+    font-size: 20px;
+    background-color: white;
+    margin-left: 30px;
+    padding: 0 5px;
+ }
+
+ .bottom-line {
+   width: 100%;
+   margin: 10px;
+   padding: 50px 0;
+ }
+
+ .bottom img {
+    padding: 20px 8%;
+ }
+
+ .leftimg {
+   float:left; /* Выравнивание по левому краю */
+   border: 2px solid cyan;
+   box-sizing: border-box;
+   margin: 0 10px 0 0; /* Отступы вокруг картинки */
+  }
+
+  footer p {
+   color: white;
+   text-align: center;
+   background-color: purple;
+   padding: 50px 0;
+   width: 100%;
+  }
