@@ -6,10 +6,17 @@
 <body>
 <header> 
     <link rel="stylesheet" href="style.css">
+    <p class="line" style="height: 15px"></p>
 </header>
 <main>
-        <img src="img/logos.png" width="200" height="80" alt="Logo">
-    <nav class="nav-element"> 
+  <div class="navigation">
+    <img src="img/logos.png" width="200" height="80" alt="Logo">
+    <p>
+      <input class="search" name="s" placeholder="Искать здесь..." type="search">
+      <input class="searchButton" type="submit" value="Найти">
+    </p>  
+  </div>     
+    <nav class="navigation"> 
         <a class="active" href="index.html">Home</a>
         <a href="about_us.html">About us</a>
         <a href="service.html">Service</a>
@@ -19,14 +26,14 @@
         <a href="careers.html">Careers</a>
         <a href="contact.html">Contact</a>
     </nav>
-    
-        <img src="img/tiger-cat.jpg" width="100%" height="280px">
-    
+      <div style="height: 450px; width: 100%; padding: 20px 0;">
+        <img src="img/tiger-cat.jpg" width="100%" height="450px">
+      </div>
     <div class="block">
         <p class="line" style="height: 22px">
           <span>КОШКИ</span>
         </p>
-        <p><img src="img/mini-cat.jpeg" width="180px" height="180px" class="leftimg">
+        <p><img src="img/mini-cat.jpeg" class="leftimg">
           Ко́шка, или дома́шняя ко́шка (лат. Félis silvéstris cátus), — домашнее животное, одно из наиболее популярных (наряду с собакой) «животных-компаньонов».<br>
           С точки зрения научной систематики, домашняя кошка — млекопитающее семейства кошачьих отряда хищных.<br> 
           Ранее домашнюю кошку нередко рассматривали как отдельный биологический вид.<br>
@@ -34,23 +41,23 @@
           </p>
       </div>
       <div class="block" style="float:right">
-        <p class="line"  style="height: 22px">
+        <p class="line2"  style="height: 22px">
           <span>ЕЩЁ НЕМНОГО О КОШКАХ</span>
         </p>
-        <p><img src="img/mini-cat.jpeg" width="180px" height="180px" class="leftimg">
+        <p><img src="img/mini-cat.jpeg" class="leftimg">
           Являясь одиночным охотником на грызунов и других мелких животных, кошка — социальное животное, использующее для общения широкий диапазон звуковых сигналов, а также феромоны и движения тела.<br>
-          В настоящее время в мире насчитывается около 600 млн домашних кошек[8], выведено около 200 пород, от длинношёрстных (персидская кошка)<br>
+          В настоящее время в мире насчитывается около 600 млн домашних кошек[8], выведено около 200 пород, от длинношёрстных (персидская кошка)
           до лишённых шерсти (сфинксы), признанных и зарегистрированных различными фелинологическими организациями.<br>
           </p>
-      </div>
+      </div>    
       <div class="block">
-        <p class="line"  style="height: 22px">
+        <p class="line2"  style="height: 22px">
           <span>ЭТИМОЛОГИЯ</span>
         </p>
-        <p><img src="img/mini-cat.jpeg" width="180px" height="180px" class="leftimg">
+        <p><img src="img/mini-cat.jpeg" class="leftimg">
           В русском языке слово кошка означает либо представителя биологического подвида Felis silvestris catus вообще независимо от пола, либо самку этого подвида.<br>
-          Самца называют кот, а детёныша кошки — котёнок (мн. ч. котя́та). Слово кошка в русском языке является диминутивом от др.-русск. слова «котъка»[11],<br>
-          которое в свою очередь происходит от существительного «кот» и является родственным лат. cattus — кошка[12] (так в поздней латыни, начиная с V века,<br>
+          Самца называют кот, а детёныша кошки — котёнок (мн. ч. котя́та). Слово кошка в русском языке является диминутивом от др.-русск. слова «котъка»,
+          которое в свою очередь происходит от существительного «кот» и является родственным лат. cattus — кошка (так в поздней латыни, начиная с V века,
           в отличие от классического латинского felis) и близким названиям во многих языках Европы и Ближнего Востока.
       </p>
       </div>
@@ -58,46 +65,61 @@
         <p class="line"  style="height: 22px">
           <span>ПРОИСХОЖДЕНИЕ</span>
         </p>
-        <p><img src="img/mini-cat.jpeg" width="180px" height="180px" class="leftimg">
+        <p><img src="img/mini-cat.jpeg" class="leftimg">
           Согласно генетическому исследованию аутосомных маркеров и митохондриальной ДНК 979 домашних,<br>
-          диких и одичавших кошек с трёх континентов, в том числе барханных кошек (Felis margarita),<br>
-          все домашние кошки по материнской линии происходят как минимум от пяти представительниц подвида<br>
+          диких и одичавших кошек с трёх континентов, в том числе барханных кошек (Felis margarita),
+          все домашние кошки по материнской линии происходят как минимум от пяти представительниц подвида
           степная кошка (Felis silvestris lybica), имеющих разные гаплотипы митохондриальной ДНК. 
       </p>
       </div>
+      <div class="navigation">
       <div class="block-bottom">
-        <p class="line"  style="height: 22px">
+        <p class="line2"  style="height: 22px">
           <span>FIFe</span>
         </p>
-        <p>FIFe (фр. Fédération Internationale Féline — Международная федерация кошек) — международная организация по разведению и выведению новых пород кошек.<br>
-          Является одним из девяти членов WCC — Всемирного Фелинологического Конгресса.</p>
+        <p>FIFe (фр. Fédération Internationale Féline — Международная федерация кошек) — международная организация по разведению и выведению новых пород кошек.</p>
+          <p>Является одним из девяти членов WCC — Всемирного Фелинологического Конгресса.</p>
+          <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%88%D0%BA%D0%B0" style="font-size: 14px; font-weight: bold; padding-left: 0;">Узнать больше...</a>
       </div>
       <div class="block-bottom">
         <p class="line"  style="height: 22px">
           <span>WCF</span>
         </p>
-        <p>Всемирная федерация кошек (англ. World Cat Federation, WCF) — объединение фелинологических клубов.<br>
-           Создана в Рио-де-Жанейро (Бразилия) в 1988 году тремя клубами любителей кошек; в настоящий момент штаб-квартира находится в Эссене (Германия).<br>
-           Всемирная федерация кошек зарегистрирована как европейская организация в Германии и Бельгии. В её состав входят более 540 клубов любителей кошек из разных стран.</p>
+        <div style="display: inline-grid;">
+        <p><img src="img/1903.jpg" class="smallimg">
+          Всемирная федерация кошек (англ. World Cat Federation, WCF) — объединение фелинологических клубов.
+        </p>
+        <p><img src="img/2007.jpg" class="smallimg">
+         Создана в Рио-де-Жанейро (Бразилия) в 1988 году тремя клубами любителей кошек; в настоящий момент штаб-квартира находится в Эссене (Германия).
+        </p>
+        <p><img src="img/gerald.png" class="smallimg">
+          Всемирная федерация кошек зарегистрирована как европейская организация в Германии и Бельгии. В её состав входят более 540 клубов любителей кошек из разных стран.
+        </p>
       </div>
-      <div class="block-bottom" style="float: right;">
-        <p class="line"  style="height: 22px">
-          <span>ИСКУССТВО И КУЛЬТУРА</span>
+      </div>
+      <div class="block-bottom">
+        <p class="line2"  style="height: 22px">
+          <span>КУЛЬТУРА</span>
         </p>
         <p>Согласно сохранившимся до наших дней суевериям, кошки считаются хранительницами домашнего очага и уюта.<br>
-           На новоселье принято первой впускать в дом кошку[235].<br>
-           Из-за способности кошек приземляться на лапы при падении[83] считается, что они обладают особым «шестым чувством», и что у них девять жизней.<br>
-           В России существует суеверие о том, что чёрные кошки являются предвестниками неудачи, особенно, если кому-то такая кошка перебежит дорогу.<br>
-           Чехи же считают, что кошка, перебежавшая дорогу справа налево, наоборот, является предвестницей удачи.</p>
+           На новоселье принято первой впускать в дом кошку.<br>
+           Из-за способности кошек приземляться на лапы при падении считается, что они обладают особым «шестым чувством», и что у них девять жизней.<br>
+           </p>
+           <br>
+           <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%88%D0%BA%D0%B0" style="font-size: 14px; font-weight: bold; padding-left: 0;">Узнать больше...</a>
       </div>
-    
-      <div class="bottom-line bottom">
+      </div>
+      <div style="width: 100%;">
         <p class="line"  style="height: 22px">
-          <span>И ТУТ КОТИКИ</span>
+          <span>КЛИЕНТЫ</span>
         </p>
-        <img src="img/mini-cat.jpeg" width="180px" height="180px">
-        <img src="img/mini-cat.jpeg" width="180px" height="180px">
-        <img src="img/mini-cat.jpeg" width="180px" height="180px">
+        <div class="clients">
+        <img src="img/html.png">
+        <img src="img/css.png">
+        <img src="img/node_js.png">
+        <img src="img/php.png">
+        <img src="img/Mysql.png">
+        </div>
       </div>
 </main>
 <footer>
