@@ -1,17 +1,20 @@
+.body {
+   width: 1260px;
+}
+
 .main {
-   padding: 0 10%;
+   margin-left: 148px;
+   margin-right: 132px;
    font-size: 14px;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .headimg {
    background-image: url(img/tiger-cat.jpg);
    background-size: 100%;
    background-position: bottom right;   
-   width: 100%;
-   height: 500px;
-   margin-top: 10px;
-   margin-bottom: 20px;
+   width: 962px;
+   height: 354px;   
 }
 
 .logo {
@@ -23,6 +26,7 @@
 .searchbox {
    padding: 30px 0;
 }
+
 .shadeimg {
    background-color: rgba(0, 0, 0, 0.5);
    display: grid;
@@ -31,47 +35,51 @@
 }
 
 .textimg {
-   font-size: 60px;
-   color: orange;
-   width: 700px;
+   font-size: 64px;   
+   color: #FFC740;
+   width: 509px;
+   height: 150px;
    position: relative;
-   top: 40px;
-   margin-left:80px;
+   left: 44px;
+   top: 31px;
 }
 
 .textimg2 {   
-   font-size: 20px;
+   font-size: 14px;
    color: white;
-   width: 500px;
+   width: 451px;
+   height: 133px;
    position: relative;
-   top: 10%;
-   margin-left: 80px;
+   left: 44px;
+   top: 36px;
 }
 
 .refimg {
-   padding: 5px 15px;
+   width: 125px;
+   height: 34px;
    text-decoration: none;
-   font-size: 20px;
+   font-size: 14px;
    background-color: blueviolet;
    color: white;
-}
-
-.navigation {
-   display: flex;
-   justify-content: space-between;  
 }
 
 .a {
    color: black;
    text-align: center;
-   padding: 20px 40px;
+   padding: 12px 27px;
    text-decoration: none;
-   font-size: 20px;    
+   font-size: 14px;  
+}
+
+.navigation {
+   width: 962px;
+   display: flex;
+   justify-content: space-between;  
 }
 
 .navigation a.active {
-   background-color: yellow;
-   color: gray;
+   background-color: #FFC740;
+   color: white;
 }
 
 .navigation a:hover {
@@ -84,11 +92,16 @@
    margin: 10px;
    width: 730px;    
    padding: 10px 0 10px;
+   text-align: justify;
+   font-size: 12px;
 }
 
 .block-bottom {
    display: inline-table;
    margin: 10px;   
+   text-align: justify;
+   font-size: 12px;
+   width: 300px;
 }
 
 .line {
@@ -96,55 +109,66 @@
    color: black; 
    padding: 0;
    margin: 0;
-   height: 22px
-}
-
-.line2 {
-   background-color: orange;
-   color: black; 
-   padding: 0;
-   margin: 0;
-   height: 22px
+   height: 16px
 }
 
 .line span {
-   font-size: 20px;
+   font-size: 14px;
    background-color: white;
-   margin-left: 30px;
+   margin-left: 16px;
    padding: 0 5px;
+}
+
+.line2 {
+   background-color: #FFC740;
+   color: black; 
+   padding: 0;
+   margin: 0;
+   height: 16px
 }
 
 .line2 span {
-   font-size: 20px;
+   font-size: 14px;
    background-color: white;
-   margin-left: 30px;
+   margin-left: 16px;
    padding: 0 5px;
 }
 
-.clients-line {
-   width: 100%;
+.line3 {
+   height: 5px;
+   width: 1260px;
+   background-color: blueviolet;
+   padding: 0;
+   margin: 0;
 }
+
 
 .clients {
-   padding: 20px 50px;
+   width: 960px;
+   height: 131px;
    display: flex;
-   justify-content: space-between;    
+   align-items: center;  
+   justify-content: center;   
 }
 
-.clients img {
+.clients-line {
+   width: 962px;
+}
+
+.clients-img {
    object-fit: scale-down;
-   width: 120px;
-   height: 120px;
+   /*width: 100px;*/
+   height: 100px;
 }
 
 .leftimg {
    float:left; 
-   border: 2px solid orange;
+   border: 2px solid #FFC740;
    box-sizing: border-box;
    margin: 0 10px 0 0; 
    object-fit: cover;
    width: 180px;
-   height: 180px;
+   height: 180px;   
 }
 
 .smallimg {
@@ -156,37 +180,38 @@
 }
 
 .footer {
+   display: flex;
    color: white;
-   text-align: center;
-   background-color: blueviolet;
-   padding: 50px 0;
-   width: 100%;
+   align-items: center;
+   justify-content: center;
+   background-color: blueviolet;   
+   width: 1260;
+   height: 115px;
 }
 
 .search {
-   border: 3px solid blueviolet;
+   border: 1px solid blueviolet;
    border-right: none;
    padding: 5px;
-   height: 30px;
-   border-radius: 5px 0 0 5px;
+   height: 33px;   
    outline: none;
    color: black; 
    margin: -4px;
    font-size: 12px;
+   width: 159px;
 }
 
 .searchButton {
-   width: 50px;
-   height: 30px;
+   width: 42px;
+   height: 33px;
    border: 1px solid blueviolet;
    background: blueviolet;
    text-align: center;
    color: #fff;
-   border-radius: 0 5px 5px 0;
    cursor: pointer;
    font-size: 11px;
 }
 
 .bottom-center {
-   display: inline-grid;
+   display: inline-table;
 } 
