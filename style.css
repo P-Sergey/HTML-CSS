@@ -7,7 +7,7 @@
    margin-right: 132px;
    font-size: 14px;
    font-style: normal;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-family: Roboto, sans-serif;
 }
 
 .logo {
@@ -16,11 +16,11 @@
    padding-top: 25px;
 }
 
-.searchbox {
+.search_box {
    padding-top: 20px;
 }
 
-.headimg {
+.head_img {
    background-image: url(img/Mountains-and-hills-julian-alps.png);
    background-size: 100%;
    background-position: bottom right;   
@@ -30,13 +30,13 @@
    margin-bottom: 20px;
 }
 
-.shadeimg {
+.shade_img {
    background-color: rgba(0, 0, 0, 0.38);   
    width: 100%;
    height: 100%;
 }
 
-.textimg {
+.text_img {
    font-size: 64px;
    color: #FFC740;
    width: 509px;
@@ -46,9 +46,9 @@
    top: 17px;
 }
 
-.textimg2 {   
+.second_text_img {   
    font-size: 14px;  
-   font-weight: lighter;
+   /*font-weight: lighter;*/
    color: white;
    width: 451px;
    height: 133px;
@@ -57,7 +57,7 @@
    top: 174px;
 }
 
-.refimg {
+.ref_img {
    width: 125px;
    height: 34px;
    text-decoration: none;
@@ -69,14 +69,14 @@
    text-align: center;
 }
 
-.topref {
+.top_ref {
    color: white;
    text-decoration: none;
    position: relative;
    top: 7px;
 }
 
-.a-menu {
+.link_menu {
    color: black;
    text-align: center;
    padding: 14px 0;
@@ -85,7 +85,7 @@
    width: 124px;
 }
 
-.a-contact {
+.link_contact {
    color: black;
    text-align: center;
    padding: 14px 0;
@@ -109,12 +109,12 @@
    justify-content: space-between;  
 }
 
-.navigation a.active {
+.link_menu.active {
    background-color: #FFC740;
    color: white;
 }
 
-.navigation a:hover {
+.link_menu:hover {
    background-color: #ddd;
    color: black;
 }
@@ -127,7 +127,7 @@
    font-size: 12px;
 }
 
-.block-bottom {
+.block_bottom {
    display: inline-table;
    margin: 10px;   
    text-align: justify;
@@ -135,14 +135,14 @@
    width: 300px;
 }
 
-.line {
+.line_violet {
    background-color: #9B51E0;
    color: black; 
    margin: 0;
    height: 16px
 }
 
-.line span {
+.line_violet_span {
    font-size: 14px;
    font-weight: bold;
    background-color: white;
@@ -150,15 +150,14 @@
    padding: 1px 5px;
 }
 
-.line2 {
+.line_orange {
    background-color: #FFC740;
    color: black; 
-   /*padding: 0;*/
    margin: 0;
    height: 16px
 }
 
-.line2 span {
+.line_orange_span {
    font-size: 14px;
    font-weight: bold;
    background-color: white;
@@ -166,7 +165,7 @@
    padding: 1px 5px;
 }
 
-.line3 {
+.top_line {
    height: 5px;
    width: 1260px;
    background-color: #9B51E0;
@@ -182,29 +181,29 @@
    justify-content: center;  
 }
 
-.clents-line {
+.clents_line {
    width: 942px;
    margin-top: 20px;
    margin-left: 10px;
 }
 
-.clents-img {
+.clents_img {
    object-fit: scale-down;
    height: 98px;
    padding: 0 20px;
 }
 
-.clents-img-wide {
+.clents_img_wide {
    height: 75px;
    padding: 0 20px;
 }
 
-.clents-img-css {
+.clents_img_css {
    height: 92px;
    padding: 0 10px;
 }
 
-.leftimg {
+.left_img {
    float:left; 
    border: 2px solid #FFC740;
    box-sizing: border-box;
@@ -214,7 +213,7 @@
    height: 138px;   
 }
 
-.smallimg {
+.small_img {
    object-fit: cover;
    width: 40px;
    height: 40px;
@@ -244,7 +243,7 @@
    width: 159px;
 }
 
-.searchButton {
+.search_button {
    width: 42px;
    height: 33px;
    border: 1px solid #9B51E0;
@@ -255,19 +254,18 @@
    font-size: 14px;
 }
 
-.bottom-center {
-   display: inline;
+.bottom_center {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 } 
 
-.readmore {
-   font-size: 14px; 
-   font-weight: normal;
-   padding-left: 0;
-   color: black;
+.bottom_center_elem {
+   margin-bottom: 0;
 }
 
-.readmore2 {
-   font-size: 14px; 
+.read_more {
+   font-size: 12px; 
    font-weight: normal;
    padding-left: 0;
    color: black;
