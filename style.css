@@ -1,13 +1,14 @@
 .body {
    width: 1260px;
+   margin: 0;
+   font-size: 14px;
+   font-style: normal;
+   font-family: Roboto, sans-serif;
 }
 
 .main {
    margin-left: 148px;
-   margin-right: 132px;
-   font-size: 14px;
-   font-style: normal;
-   font-family: Roboto, sans-serif;
+   margin-right: 132px;   
 }
 
 .logo {
@@ -17,7 +18,7 @@
 }
 
 .search_box {
-   padding-top: 20px;
+   padding-top: 21px;
 }
 
 .head_img {
@@ -27,7 +28,7 @@
    width: 962px;
    height: 332px;   
    position: relative;
-   margin-bottom: 20px;
+   margin-bottom: 23px;
 }
 
 .shade_img {
@@ -48,12 +49,11 @@
 
 .second_text_img {   
    font-size: 14px;  
-   /*font-weight: lighter;*/
    color: white;
    width: 451px;
    height: 133px;
    position: absolute;
-   left: 44px;
+   left: 43px;
    top: 174px;
 }
 
@@ -64,8 +64,8 @@
    font-size: 14px;
    background-color: #6D3D99;   
    position: absolute;
-   left: 45px;
-   bottom: 30px;
+   left: 43px;
+   bottom: 32px;
    text-align: center;
 }
 
@@ -73,7 +73,8 @@
    color: white;
    text-decoration: none;
    position: relative;
-   top: 7px;
+   top: 8px;
+   font-weight: bold;
 }
 
 .link_menu {
@@ -121,7 +122,7 @@
 
 .block {
    display: inline-block;
-   margin: 10px;
+   margin: 11px 10px;
    width: 730px;       
    text-align: justify;
    font-size: 12px;
@@ -129,10 +130,10 @@
 
 .block_bottom {
    display: inline-table;
-   margin: 10px;   
+   margin: 18px 10px 10px 10px;
    text-align: justify;
    font-size: 12px;
-   width: 300px;
+   width: 310px;
 }
 
 .line_violet {
@@ -175,7 +176,7 @@
 
 .clents {
    width: 960px;
-   height: 131px;
+   height: 144px;
    display: flex;
    align-items: center;  
    justify-content: center;  
@@ -187,20 +188,40 @@
    margin-left: 10px;
 }
 
-.clents_img {
+.clents_img_html {
    object-fit: scale-down;
    height: 98px;
-   padding: 0 20px;
-}
-
-.clents_img_wide {
-   height: 75px;
-   padding: 0 20px;
+   position: relative;
+   right: 68px;
+   bottom: 6px;
 }
 
 .clents_img_css {
-   height: 92px;
-   padding: 0 10px;
+   object-fit: scale-down;
+   height: 98px;
+   position: relative;
+   right: 39px;
+   bottom: -1px;
+}
+
+.clents_img_nodejs {
+   height: 79px;
+   position: relative;
+   right: 17px;
+}
+
+.clents_img_php {
+   height: 97px;
+   position: relative;
+   right: -15px;
+   bottom: 7px;
+}
+
+.clents_img_mysql {
+   height: 72px;
+   position: relative;
+   right: -44px;
+   bottom: 6px;
 }
 
 .left_img {
@@ -209,8 +230,9 @@
    box-sizing: border-box;
    margin: 0 21px 0 0; 
    object-fit: cover;
-   width: 138px;
-   height: 138px;   
+   width: 141px;
+   height: 141px;  
+   padding: 2px; 
 }
 
 .small_img {
@@ -228,7 +250,8 @@
    justify-content: center;
    background-color: #6D3D99;   
    width: 1260;
-   height: 115px;
+   height: 110px;
+   font-weight: bold;
 }
 
 .search {
@@ -252,6 +275,7 @@
    color: #fff;
    cursor: pointer;
    font-size: 14px;
+   font-weight: bold;
 }
 
 .bottom_center {
